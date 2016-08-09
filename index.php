@@ -1,14 +1,8 @@
- <?php
-$servername = "localhost";
-$username = "public_user";
-$password = "password";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?> 
+<html>
+  <body>
+    <h1>main page</h1>
+    <h2><a href="/products.php">go to shop</a></h2>
+  </body>
+</html>
